@@ -18,7 +18,7 @@ contract CryptoCrowd {
     Project[] public projects;
 
     event ProjectCreated(uint projectId, address owner, string title, uint goalAmount);
-    event Funded(uint projectId, address funder, uint amount);
+    event Funded(uint projectId,  address funder, uint amount);
     event ProjectCompleted(uint projectId, uint totalRaised);
 
     // Create a new crowdfunding project
